@@ -138,3 +138,11 @@ Q.idea/sonarlint/securityhotspotstore/1/0/1017d171139053a6ceaff055b7159ba14e80dc
 Q.idea/sonarlint/securityhotspotstore/4/e/4e957ef92e6345576bad4d016e03e8477453aeb1,0/6/0637fb6028824a262c3380ae3b6ce10d71d72dac
 Å
 Q.idea/sonarlint/securityhotspotstore/3/0/30205a209c6ce77c4cfc19a09e6f57c588b7fb88,6/7/67eaf978e530588b1f14f51aeca296c2b659e272
+W
+'hws/javalin-intro/examples/Example.java,d/f/df7dc3390168d5543df1917cac8ac7f5fbcf43fb
+R
+"hws/javalin-intro/build.gradle.kts,7/2/72599d9417eaa7a95f6d94f38c37c0258ffb80e2
+K
+hws/javalin-intro/README.md,c/d/cd2eb7e6267f901ccbfc698cecf7c6f8645bef35
+a
+1hws/javalin-intro/src/main/java/exercise/App.java,e/0/e0225209189f7f9daa0673ebc684d5b840f66b87
