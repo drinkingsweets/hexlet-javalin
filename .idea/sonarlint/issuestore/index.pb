@@ -146,3 +146,15 @@ K
 hws/javalin-intro/README.md,c/d/cd2eb7e6267f901ccbfc698cecf7c6f8645bef35
 a
 1hws/javalin-intro/src/main/java/exercise/App.java,e/0/e0225209189f7f9daa0673ebc684d5b840f66b87
+]
+-src/main/java/org/example/hexlet/Сourse.java,f/6/f65fb346d3858ce82dc278b6cddcebc56333c62f
+`
+0src/main/java/org/example/hexlet/CoursePage.java,3/7/37cfb77e5edd2f5649b748a8fe34c4b09cb01825
+N
+src/main/jte/courses/index.jte,1/5/15a2e2afa005c35718ff0953bc1954e4779ba59c
+a
+1src/main/java/org/example/hexlet/CoursesPage.java,0/c/0c1750cde276616245f9bbdf449bf4d8d6ec3b2b
+\
+,src/main/java/org/example/hexlet/Course.java,8/d/8d56f4ab782cab6475c7468d6d33e76ab0df5ced
+w
+G.idea/sonarlint/issuestore/8/f/8f340ffb4ea516767c9a6fc0a05dfdffdac8030a,0/e/0efa0e3028de8a14dc0eb62effaadffe14e91f6c
