@@ -166,3 +166,5 @@ G
 src/main/jte/layout.jte,9/2/921977a7cb4e3b1e609bffb7c4c6fc156f47e372
 G
 src/main/jte/index1.jte,e/c/ecc38ab9ed5cb92199dba70fc8cc3d704b59856f
+J
+src/main/jte/addcourse.jte,f/f/ff7ea4fb10d88e003753e7bf3d62318dae128fd3
