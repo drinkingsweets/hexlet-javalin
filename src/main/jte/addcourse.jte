@@ -1,5 +1,8 @@
 @import org.example.hexlet.CoursesPageBuild
+@import org.example.hexlet.Routes
+@import org.example.hexlet.Routes
 @param CoursesPageBuild pageBuild
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +19,7 @@
               @endfor
     @endfor
 @endif
-<form action="/courses/add" method="post">
+<form action="${Routes.addCoursesPath()}" method="post">
     <label for="courseName">Название курса:</label>
     <input type="text" id="courseName" name="courseName" value="${pageBuild != null ? pageBuild.getName() : ""}" required />
     <br />

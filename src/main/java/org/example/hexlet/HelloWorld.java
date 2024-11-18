@@ -31,7 +31,7 @@ public class HelloWorld {
              ctx.result("Hello");
         });
 
-        app.get("/courses", ctx ->
+        app.get(Routes.coursesPath(), ctx ->
         {
         String term = ctx.queryParam("term");
         if (term != null) {
@@ -50,11 +50,11 @@ public class HelloWorld {
 
         });
 
-        app.get("/courses/add", ctx -> {
+        app.get(Routes.addCoursesPath(), ctx -> {
             ctx.render("addcourse.jte");
         });
 
-        app.post("/courses/add", ctx -> {
+        app.post(Routes.addCoursesPath(), ctx -> {
             String name = ctx.formParam("courseName");
             String desc = ctx.formParam("courseDes");
             try {
@@ -68,7 +68,7 @@ public class HelloWorld {
 
                 coursesPage.addCourse(new Course(name, desc));
 
-                ctx.redirect("/courses");
+                ctx.redirect(Routes.coursesPath());
             }
 
             catch (ValidationException e) {

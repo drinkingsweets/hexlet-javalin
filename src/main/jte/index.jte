@@ -1,7 +1,9 @@
 @import org.example.hexlet.Course
+@import org.example.hexlet.Routes
 @import java.util.List
 @param String term
 @param List<Course> all
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,9 +11,9 @@
         <meta charset="utf-8" />
     </head>
 <body>
-<a href = "/courses/add"> Add course</a>
+<a href = "${Routes.addCoursesPath()}"> Add course</a>
 <h1>Courses: ${all.size()}</h1>
-<form action="/courses" method="get">
+<form action="${Routes.coursesPath()}" method="get">
   <input type="search" required name="term" value="${term}">
   <input type="submit" value="Искать">
 </form>

@@ -172,3 +172,5 @@ f
 6src/main/java/org/example/hexlet/CourseRepository.java,9/1/91e2093ef62c960b1c426e185b9e051bc3ea7b73
 f
 6src/main/java/org/example/hexlet/CoursesPageBuild.java,f/b/fbcbf3576043a0c2376206022dac8bd527d8e94d
+\
+,src/main/java/org/example/hexlet/Routes.java,e/e/ee588a4a1d6fab3ecb10a8a6a313e729eca8c91a
