@@ -1,5 +1,10 @@
 package org.example.hexlet;
 
+import io.javalin.validation.ValidationError;
+
+import java.util.List;
+import java.util.Map;
+
 public final class Course {
     private long id;
     public String getName() {

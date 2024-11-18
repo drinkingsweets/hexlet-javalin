@@ -168,3 +168,7 @@ G
 src/main/jte/index1.jte,e/c/ecc38ab9ed5cb92199dba70fc8cc3d704b59856f
 J
 src/main/jte/addcourse.jte,f/f/ff7ea4fb10d88e003753e7bf3d62318dae128fd3
+f
+6src/main/java/org/example/hexlet/CourseRepository.java,9/1/91e2093ef62c960b1c426e185b9e051bc3ea7b73
+f
+6src/main/java/org/example/hexlet/CoursesPageBuild.java,f/b/fbcbf3576043a0c2376206022dac8bd527d8e94d

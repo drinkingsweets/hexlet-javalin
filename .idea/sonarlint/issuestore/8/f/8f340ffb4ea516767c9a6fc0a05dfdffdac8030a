@@ -1,11 +1,7 @@
 
 t
-java:S1602",Remove useless curly braces around statement(¶„èèıÿÿÿÿ8Æ¤‚Ì³2J$8c2fd3d5-0589-4a88-b16d-33f040457631
+java:S1602",Remove useless curly braces around statement(¶„èèıÿÿÿÿ8æôÆñ³2J$7d68fb9e-7a92-4fb9-a692-4d633cc04d0c
 t
-java:S16025",Remove useless curly braces around statement(İ´îßúÿÿÿÿ8È¤‚Ì³2J$066dd425-66ce-459b-9716-12931c8fa3ed
-
-java:S1128"GRemove this unused import 'org.apache.commons.lang3.StringEscapeUtils'.(âŞÔŞÿÿÿÿÿ8É¤‚Ì³2J$26ea15a7-a73d-4401-9c36-2bed273a119b
-
-java:S1128"MRemove this unused import 'io.javalin.rendering.template.TemplateUtil.model'.(š²ö¯8É¤‚Ì³2J$690e8ff1-e500-4b7a-ba48-7324a63e73ff
-y
-java:S1128"6Remove this unused import 'javax.swing.UIManager.put'.(›Í‰Æ8É¤‚Ì³2J$d9ea3782-5ad6-4c4f-8fbf-da312b4f25c8
+java:S16025",Remove useless curly braces around statement(İ´îßúÿÿÿÿ8èôÆñ³2J$20687b4b-2c4c-4364-95cb-d08acabf19e1
+_
+java:S1128"BRemove this unused import 'io.javalin.validation.ValidationError'.(Ÿƒ¹8¾çïñ³2

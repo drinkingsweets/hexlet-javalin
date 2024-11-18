@@ -2,7 +2,8 @@ package org.example.hexlet;
 
 import io.javalin.Javalin;
 import io.javalin.rendering.template.JavalinJte;
-import org.apache.commons.lang3.StringEscapeUtils;
+import io.javalin.validation.ValidationError;
+import io.javalin.validation.ValidationException;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,7 +11,6 @@ import java.util.List;
 import java.util.Map;
 
 import static io.javalin.rendering.template.TemplateUtil.model;
-import static javax.swing.UIManager.put;
 
 public class HelloWorld {
     public static void main(String[] args) {
@@ -57,10 +57,24 @@ public class HelloWorld {
         app.post("/courses/add", ctx -> {
             String name = ctx.formParam("courseName");
             String desc = ctx.formParam("courseDes");
+            try {
+                name = ctx.formParamAsClass("courseName", String.class)
+                        .check(value -> value.length() > 2, "Название курсов должно быть длиннее двух")
+                        .get();
 
-            coursesPage.addCourse(new Course(name, desc));
+                desc = ctx.formParamAsClass("courseDes", String.class)
+                        .check(value -> value.length() > 10, "Описание должно быть длиннее 10 символов")
+                        .get();
 
-            ctx.redirect("/courses");
+                coursesPage.addCourse(new Course(name, desc));
+
+                ctx.redirect("/courses");
+            }
+
+            catch (ValidationException e) {
+                CoursesPageBuild error = new CoursesPageBuild(name, desc, e.getErrors());
+                ctx.render("addcourse.jte", model("pageBuild", error));
+            }
         });
 
         app.start(7070);
