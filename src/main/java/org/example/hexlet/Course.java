@@ -23,6 +23,10 @@ public final class Course {
         this.description = description;
     }
 
+    public long getId() {
+        return id;
+    }
+
 
     private String name;
     private String description;

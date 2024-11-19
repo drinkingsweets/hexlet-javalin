@@ -19,7 +19,7 @@
 </form>
 <a> 
     @for (Course course: all)
-        <h2>${course.getName()}</h2>
+        <li><a href="/courses/${course.getId()}">${course.getName()}</a></li>
     @endfor
 
 </a>

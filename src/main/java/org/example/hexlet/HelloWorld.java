@@ -25,57 +25,15 @@ public class HelloWorld {
         all.add(new Course("python1", "12122131231"));
         all.add(new Course("python sql js bebube", "12122311"));
 
-        CoursesPage coursesPage = new CoursesPage(all, "courses");
-
-        app.get("/", ctx -> {
-             ctx.result("Hello");
-        });
-
-        app.get(Routes.coursesPath(), ctx ->
-        {
-        String term = ctx.queryParam("term");
-        if (term != null) {
-            Map<String, Object> data = new HashMap<>();
-            data.put("all", coursesPage.getCourses().stream().filter(course -> course.getName().contains(term)).toList());
-            data.put("term", term);
-
-            ctx.render("index.jte", data);
-        } else {
-            Map<String, Object> data = new HashMap<>();
-            data.put("all", coursesPage.getCourses());
-            data.put("term", "");
-
-            ctx.render("index.jte", data);
+        for(Course course: all) {
+            CoursesPage.addCourse(course);
         }
 
-        });
-
-        app.get(Routes.addCoursesPath(), ctx -> {
-            ctx.render("addcourse.jte");
-        });
-
-        app.post(Routes.addCoursesPath(), ctx -> {
-            String name = ctx.formParam("courseName");
-            String desc = ctx.formParam("courseDes");
-            try {
-                name = ctx.formParamAsClass("courseName", String.class)
-                        .check(value -> value.length() > 2, "Название курсов должно быть длиннее двух")
-                        .get();
-
-                desc = ctx.formParamAsClass("courseDes", String.class)
-                        .check(value -> value.length() > 10, "Описание должно быть длиннее 10 символов")
-                        .get();
-
-                coursesPage.addCourse(new Course(name, desc));
-
-                ctx.redirect(Routes.coursesPath());
-            }
-
-            catch (ValidationException e) {
-                CoursesPageBuild error = new CoursesPageBuild(name, desc, e.getErrors());
-                ctx.render("addcourse.jte", model("pageBuild", error));
-            }
-        });
+        app.get(Routes.toCourses(), CoursesController::mainPage);
+        app.get(Routes.coursesPath(), CoursesController::coursesPage);
+        app.get(Routes.addCoursesPath(), CoursesController::build);
+        app.get(Routes.currentCourse(), CoursesController::currentCourse);
+        app.post(Routes.addCoursesPath(), CoursesController::addCourse);
 
         app.start(7070);
     }

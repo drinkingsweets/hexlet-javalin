@@ -1,7 +1,11 @@
 
-t
-java:S1602",Remove useless curly braces around statement(¶„èèıÿÿÿÿ8æôÆñ³2J$b89dfe47-dfe1-4474-836f-871d91f614c1
-t
-java:S16025",Remove useless curly braces around statement(¿üÄÇüÿÿÿÿ8èôÆñ³2J$ddd8c25f-404e-4197-8746-31347a706a2c
-_
-java:S1128"BRemove this unused import 'io.javalin.validation.ValidationError'.(Ÿƒ¹8½îú‚´2
+…
+java:S1128"BRemove this unused import 'io.javalin.validation.ValidationError'.(Ÿƒ¹8æì×´2J$52c740e1-372a-460a-af4f-58f1c5738a31
+
+java:S1128"FRemove this unused import 'io.javalin.validation.ValidationException'.(£áíéúÿÿÿÿ8çì×´2J$89c31f7f-1fbf-47aa-b4a4-c0772570d7ed
+v
+java:S1128	".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8çì×´2J$147878f5-6ca0-4cbc-beb3-741c7893b752
+r
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8çì×´2J$67d3d22e-4d9e-4486-a175-d40771acdda1
+
+java:S1128"MRemove this unused import 'io.javalin.rendering.template.TemplateUtil.model'.(š²ö¯8çì×´2J$926857ff-f97c-4893-8688-f571a66e53d6

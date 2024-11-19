@@ -174,3 +174,9 @@ f
 6src/main/java/org/example/hexlet/CoursesPageBuild.java,f/b/fbcbf3576043a0c2376206022dac8bd527d8e94d
 \
 ,src/main/java/org/example/hexlet/Routes.java,e/e/ee588a4a1d6fab3ecb10a8a6a313e729eca8c91a
+J
+src/main/jte/startPage.jte,f/5/f511bb5cc59b1c1ca4dbf8860e1dd94ad5ddf5f6
+g
+7src/main/java/org/example/hexlet/CoursesController.java,c/5/c51c6226392d76963817b0c7590ca9117b4eb912
+N
+src/main/jte/currentCourse.jte,a/b/ab3b0f046d68730a71400d81e8d51589ec3b636c
