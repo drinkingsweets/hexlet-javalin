@@ -15,19 +15,24 @@ public class CoursesController {
 
     public static void coursesPage(Context ctx) {
         String term = ctx.queryParam("term");
+        boolean visited = Boolean.valueOf(ctx.cookie("visited"));
+
         if (term != null) {
             Map<String, Object> data = new HashMap<>();
             data.put("all", CoursesPage.getCourses().stream().filter(course -> course.getName().contains(term)).toList());
             data.put("term", term);
+            data.put("isVisited", visited);
 
             ctx.render("index.jte", data);
         } else {
             Map<String, Object> data = new HashMap<>();
             data.put("all", CoursesPage.getCourses());
             data.put("term", "");
+            data.put("isVisited", visited);
 
             ctx.render("index.jte", data);
         }
+        ctx.cookie("visited", String.valueOf(true));
     }
 
     public static void build(Context ctx) {

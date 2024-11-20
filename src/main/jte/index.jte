@@ -3,6 +3,7 @@
 @import java.util.List
 @param String term
 @param List<Course> all
+@param boolean isVisited
 
 
 <!DOCTYPE html>
@@ -17,6 +18,9 @@
   <input type="search" required name="term" value="${term}">
   <input type="submit" value="Искать">
 </form>
+@if (!isVisited)
+    This message appears only when you visited site for the first time.
+@endif
 <a> 
     @for (Course course: all)
         <li><a href="/courses/${course.getId()}">${course.getName()}</a></li>

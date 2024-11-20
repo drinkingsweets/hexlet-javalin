@@ -17,6 +17,7 @@ public class CoursesPage {
         return all;
     }
 
+
     public static Map<String, List<ValidationError<Object>>> getErrors() {
         return errors;
     }
