@@ -29,11 +29,16 @@ public class HelloWorld {
             CoursesPage.addCourse(course);
         }
 
+        UserRepository.add(new User("test", "test"));
+
         app.get(Routes.toCourses(), CoursesController::mainPage);
+        app.get(Routes.loginPath(), CoursesController::renderLoginPage);
+        app.post(Routes.loginPath(), CoursesController::authentication);
         app.get(Routes.coursesPath(), CoursesController::coursesPage);
         app.get(Routes.addCoursesPath(), CoursesController::build);
         app.get(Routes.currentCourse(), CoursesController::currentCourse);
         app.post(Routes.addCoursesPath(), CoursesController::addCourse);
+
 
         app.start(7070);
     }

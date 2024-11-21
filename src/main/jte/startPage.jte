@@ -5,5 +5,6 @@
 <html>
 <body>
 <a href="${Routes.coursesPath()}">Курсы</a>
+<a href="${Routes.loginPath()}">Войти в аккаунт</a>
 </body>
 </html>

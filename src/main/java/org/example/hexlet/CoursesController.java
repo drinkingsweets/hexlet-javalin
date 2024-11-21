@@ -69,4 +69,21 @@ public class CoursesController {
         System.out.println(found.getName());
 
     }
+
+    public static void renderLoginPage(Context ctx) {
+        ctx.render("login.jte");
+    }
+
+    public static void authentication(Context ctx) {
+        String login = ctx.formParamAsClass("login", String.class).get();
+        String password = ctx.formParamAsClass("password", String.class).get();
+
+        if (UserRepository.checkUser(login, password)) {
+            ctx.redirect("/courses");
+        }
+
+        else {
+            ctx.result("Not correct login or password");
+        }
+    }
 }

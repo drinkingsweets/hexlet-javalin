@@ -18,5 +18,8 @@ public class Routes {
         return "/courses/{id}";
     }
 
+    public static String loginPath() {
+        return "/courses/login";
+    }
 
 }

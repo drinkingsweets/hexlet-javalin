@@ -153,23 +153,11 @@ a
 w
 G.idea/sonarlint/issuestore/8/f/8f340ffb4ea516767c9a6fc0a05dfdffdac8030a,0/e/0efa0e3028de8a14dc0eb62effaadffe14e91f6c
 F
-src/main/jte/futer.jte,9/4/94e35ee92e16728cec1fbdd7f58c64e371389b69
-F
 src/main/jte/index.jte,e/e/ee924fe5394b446f66e93be7cfef97f753263ec9
 l
 <jte-classes/gg/jte/generated/ondemand/JteindexGenerated.java,d/4/d47652eea287ba459dac1c03b7eebf9bdcc16ff5
-E
-src/main/jte/page.jte,3/f/3f04bb06d5eb4a1779f055c17595bc39ae59b4e1
-E
-src/main/jte/temp.jte,7/1/71e50410f35253d9fb0492c98c756bd1342163a4
-G
-src/main/jte/layout.jte,9/2/921977a7cb4e3b1e609bffb7c4c6fc156f47e372
-G
-src/main/jte/index1.jte,e/c/ecc38ab9ed5cb92199dba70fc8cc3d704b59856f
 J
 src/main/jte/addcourse.jte,f/f/ff7ea4fb10d88e003753e7bf3d62318dae128fd3
-f
-6src/main/java/org/example/hexlet/CourseRepository.java,9/1/91e2093ef62c960b1c426e185b9e051bc3ea7b73
 f
 6src/main/java/org/example/hexlet/CoursesPageBuild.java,f/b/fbcbf3576043a0c2376206022dac8bd527d8e94d
 \
@@ -180,3 +168,9 @@ g
 7src/main/java/org/example/hexlet/CoursesController.java,c/5/c51c6226392d76963817b0c7590ca9117b4eb912
 N
 src/main/jte/currentCourse.jte,a/b/ab3b0f046d68730a71400d81e8d51589ec3b636c
+F
+src/main/jte/login.jte,8/8/8802c2e865156e60fbc036381ae1e74e96db50de
+Z
+*src/main/java/org/example/hexlet/User.java,9/0/90fefe81ce455789785ff6836eb665b968b7edb5
+d
+4src/main/java/org/example/hexlet/UserRepository.java,1/9/1916af9be8bac073e30afbc2234e00755a095025

@@ -27,6 +27,7 @@ dependencies {
     implementation("org.apache.commons:commons-lang3:3.17.0")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.17.2")
     implementation("gg.jte:jte:3.1.9")
+    compileOnly("org.projectlombok:lombok:1.18.36")
     implementation("gg.jte:jte:3.1.9")
     implementation("io.javalin:javalin-rendering:6.1.3")
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
