@@ -174,3 +174,7 @@ Z
 *src/main/java/org/example/hexlet/User.java,9/0/90fefe81ce455789785ff6836eb665b968b7edb5
 d
 4src/main/java/org/example/hexlet/UserRepository.java,1/9/1916af9be8bac073e30afbc2234e00755a095025
+[
++src/main/java/org/example/hexlet/Flash.java,6/a/6a44ede37ddaabaf2408a08d86ccbf9152f3715f
+d
+4src/main/java/org/example/hexlet/BaseRepository.java,d/c/dc089e271ad1608c32b71390d3f87592ab344b81

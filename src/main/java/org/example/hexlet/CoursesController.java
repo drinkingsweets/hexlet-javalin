@@ -22,15 +22,19 @@ public class CoursesController {
             data.put("all", CoursesPage.getCourses().stream().filter(course -> course.getName().contains(term)).toList());
             data.put("term", term);
             data.put("isVisited", visited);
+            data.put("flash", CoursesPage.getMessage());
 
             ctx.render("index.jte", data);
+            CoursesPage.setMessage(null);
         } else {
             Map<String, Object> data = new HashMap<>();
             data.put("all", CoursesPage.getCourses());
             data.put("term", "");
             data.put("isVisited", visited);
+            data.put("flash", CoursesPage.getMessage());
 
             ctx.render("index.jte", data);
+            CoursesPage.setMessage(null);
         }
         ctx.cookie("visited", String.valueOf(true));
     }
@@ -41,7 +45,7 @@ public class CoursesController {
 
     public static void addCourse(Context ctx) {
         String name = ctx.formParam("courseName");
-            String desc = ctx.formParam("courseDes");
+        String desc = ctx.formParam("courseDes");
             try {
                 name = ctx.formParamAsClass("courseName", String.class)
                         .check(value -> value.length() > 2, "Название курсов должно быть длиннее двух")
@@ -51,7 +55,10 @@ public class CoursesController {
                         .check(value -> value.length() > 10, "Описание должно быть длиннее 10 символов")
                         .get();
 
-                CoursesPage.addCourse(new Course(name, desc));
+                CoursesPage.addCourse(new Course(CoursesPage.nextIndex(), name, desc));
+                CoursesPage.setMessage("Курс создан успешно!");
+
+                System.out.println("Flash message: " + CoursesPage.getMessage());
 
                 ctx.redirect(Routes.coursesPath());
             }

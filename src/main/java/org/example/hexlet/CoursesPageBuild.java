@@ -5,7 +5,7 @@ import io.javalin.validation.ValidationError;
 import java.util.List;
 import java.util.Map;
 
-public class CoursesPageBuild {
+public class CoursesPageBuild extends Flash {
     private String name;
     private String description;
     private Map<String, List<ValidationError<Object>>> errors;

@@ -1,11 +1,20 @@
 
+
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ß£æóüÿÿÿÿ8ãñÁµ2J$6a77dc19-b02a-4942-a05c-e6aa74d8ae9d
+
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ËùÚ•ıÿÿÿÿ8®ˆ¼µ2J$5acd21da-1999-4c3a-abff-8dd5755739c3
+y
+java:S6437"6Revoke and change this password, as it is compromised.(×ö‹€8°ˆ¼µ2J$1b9d0ea5-06b2-4863-bc83-331f06de771c
+m	java:S106"+Replace this use of System.out by a logger.(©ÿ‘§8°ˆ¼µ2J$20bdd5ce-62cb-455e-a438-1c01365d6c12
 …
-java:S1128"BRemove this unused import 'io.javalin.validation.ValidationError'.(Ÿƒ¹8Âˆıì´2J$dcab662a-22d2-4c81-b6aa-847d803d7dc0
+java:S1128"BRemove this unused import 'io.javalin.validation.ValidationError'.(Ÿƒ¹8ÚÊ²µ2J$f91c17ad-4b8d-44de-b114-a7ca9ec509fe
 
-java:S1128"FRemove this unused import 'io.javalin.validation.ValidationException'.(£áíéúÿÿÿÿ8Ãˆıì´2J$51a2602d-41a2-47cf-8ad8-c042588eb0d6
+java:S1128"FRemove this unused import 'io.javalin.validation.ValidationException'.(£áíéúÿÿÿÿ8ÚÊ²µ2J$01cdf6cd-c8fe-4979-b07c-4ad10dc28395
+s
+java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8ÚÊ²µ2J$0adc9122-e99b-4282-87fc-c311d4b5350d
 v
-java:S1128	".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8Ãˆıì´2J$bc4f8920-d20e-4700-99b3-eb17525af1ad
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ÚÊ²µ2J$af06f52d-9049-4f61-abf0-b92fff3478c9
 r
-java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8Ãˆıì´2J$80126e6d-3b57-4ff9-bc6c-61e3d74e083f
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8ÚÊ²µ2J$6f144fb2-bd9d-452d-a5bf-54ea9c5c6e7e
 
-java:S1128"MRemove this unused import 'io.javalin.rendering.template.TemplateUtil.model'.(š²ö¯8Ãˆıì´2J$2d45804d-3bdb-496a-9ac3-f89652af9533
+java:S1128"MRemove this unused import 'io.javalin.rendering.template.TemplateUtil.model'.(š²ö¯8ÚÊ²µ2J$aaa9cac5-575a-4668-8085-fba0cc43726b
