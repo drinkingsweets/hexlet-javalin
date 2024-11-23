@@ -8,7 +8,7 @@ WORKDIR /app
 COPY src/main/java/org/example/hexlet .
 
 # Скачиваем зависимости и собираем проект
-RUN ./gradlew build
+RUN ./gradlew run
 
 # Запуск приложения (укажи название собранного jar-файла)
 CMD ["java", "-jar", "build/libs/hexlet-javalin.jar"]
