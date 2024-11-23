@@ -1,0 +1,7 @@
+
+
+java:S1104"VMake dataSource a static final constant or non-public and provide accessors if needed.(—ÉöÄûÿÿÿÿ8¹œ™œµ2J$039d1458-0042-47c9-a716-75b0199280af
+x
+java:S1444"0Make this "public static dataSource" field final(—ÉöÄûÿÿÿÿ8ºœ™œµ2J$8914d9a7-ef34-41a9-83c6-a47c7476e5d2
+‚
+java:S1118":Add a private constructor to hide the implicit public one.(¦äÚıÿÿÿÿ8ºœ™œµ2J$6b690e89-13e8-4e60-831d-b785a7df64ca

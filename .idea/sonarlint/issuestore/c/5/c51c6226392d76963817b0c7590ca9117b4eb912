@@ -1,0 +1,20 @@
+
+‚
+java:S1118
+":Add a private constructor to hide the implicit public one.(‰¨›²ÿÿÿÿÿ8¼­­ğ´2J$65864995-06f0-491a-bf8f-2c3d0c61a069
+‰
+java:S2130"AUse "Boolean.parseBoolean" for this string-to-boolean conversion.(¥ó‘äÿÿÿÿÿ8½­­ğ´2J$5710049e-4311-4aaf-8df8-d1818f56668a
+‹
+java:S3252"CUse static access with "org.example.hexlet.Flash" for "getMessage".(ÍÈ”çøÿÿÿÿ8ĞìÏğ´2J$2a5b3f6b-67b7-4844-8b75-009be751eb02
+‹
+java:S3252"CUse static access with "org.example.hexlet.Flash" for "setMessage".(ğÅÉûÿÿÿÿ8ĞìÏğ´2J$8d07e274-3345-4c5f-b3ac-d6d8a99190a0
+‹
+java:S3252""CUse static access with "org.example.hexlet.Flash" for "getMessage".(ÍÈ”çøÿÿÿÿ8ÓãÑğ´2J$b7deb66e-83b7-4912-87cd-12ea273aa09f
+‹
+java:S3252%"CUse static access with "org.example.hexlet.Flash" for "setMessage".(ğÅÉûÿÿÿÿ8ÔìÏğ´2J$4bde522b-1937-456a-ab24-a41700d4507d
+‹
+java:S3252;"CUse static access with "org.example.hexlet.Flash" for "setMessage".(ñÍôÛûÿÿÿÿ8÷ˆĞğ´2J$c7febcaa-4b04-47a6-b26e-14fb967dd7ec
+r	java:S106="+Replace this use of System.out by a logger.(Èá¹Áÿÿÿÿÿ8×ãÑğ´2J$3280ece3-66c5-4fd7-b473-3418742ce172
+‹
+java:S3252="CUse static access with "org.example.hexlet.Flash" for "getMessage".(Èá¹Áÿÿÿÿÿ8æÉ×ğ´2J$8c033990-1848-466c-8a5e-ae5f3ac3f88d
+m	java:S106L"+Replace this use of System.out by a logger.(æßÊ¡8æÉ×ğ´2J$0320153f-d1da-4d16-9cb0-c59c92ac0f19

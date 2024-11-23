@@ -1,0 +1,10 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Έ›’ÿÿÿÿÿ
+f	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ί•³
+f	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰β
+8
+java:S2386"Make this member "protected".(εκεÒόÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(Η‡υξ
+T
+java:S1172"9Remove this unused method parameter "jteHtmlInterceptor".(‡“’ώÿÿÿÿ
