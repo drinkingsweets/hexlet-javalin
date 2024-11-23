@@ -7,6 +7,8 @@ WORKDIR /app
 # Копируем весь проект в контейнер
 COPY src/main/java/org/example/hexlet .
 
+RUN chmod +x ./gradlew
+
 # Скачиваем зависимости и собираем проект
 RUN ./gradlew run
 
