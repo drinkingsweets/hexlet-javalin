@@ -6,4 +6,4 @@ COPY /app .
 
 RUN gradle installDist
 
-CMD gradlew
+CMD src/main/java/org/example/hexlet/HelloWorld.java
