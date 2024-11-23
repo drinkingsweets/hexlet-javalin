@@ -5,7 +5,7 @@ FROM openjdk:17
 WORKDIR /app
 
 # Копируем весь проект в контейнер
-COPY . .
+COPY src/main/java/org/example/hexlet .
 
 # Скачиваем зависимости и собираем проект
 RUN ./gradlew build
